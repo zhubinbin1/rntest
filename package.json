@@ -1,0 +1,16 @@
+{
+  "name": "rn_project",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "yarn react-native start"
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "cli": "^1.0.1",
+    "core-js": "3",
+    "metro-react-native-babel-transformer": "0.56.0",
+    "react": "16.8.6",
+    "react-native": "^0.60.0"
+  }
+}
