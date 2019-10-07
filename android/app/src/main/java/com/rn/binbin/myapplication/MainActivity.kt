@@ -39,7 +39,7 @@ class MainActivity() : AppCompatActivity(), DefaultHardwareBackBtnHandler {
             .setApplication(application)
             .setCurrentActivity(this)
             .setBundleAssetName("index.android.bundle")
-            .setJSMainModulePath("index")
+            .setJSMainModulePath("./android/rn/index")
             .addPackage(MainReactPackage())
             .setUseDeveloperSupport(BuildConfig.DEBUG)
             .setInitialLifecycleState(LifecycleState.RESUMED)
